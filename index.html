@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Jose Maria Pozo Hidalgo">
+    <meta name="Description" content="Tienda Online">
+    <meta name="Keywords" content="HTML CSS js">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./scripts/scripts.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="multimedia//Logo.png" />
+        </div>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Tarjeta Gráfica AMD Radeon</h3>
+            <img src="multimedia/p1.png" />
+            <h1>449€</h1>
+            <button class="button-add" onclick="add('Tarjeta Gráfica AMD Radeon', 449)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Monitor Lenovo</h3>
+            <img src="multimedia/p2.png" />
+            <h1>219€</h1>
+            <button class="button-add" onclick="add('Monitor Lenovo', 219)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Portátil</h3>
+            <img src="multimedia/p3.png" />
+            <h1>729€</h1>
+            <button class="button-add" onclick="add('Portátil', 729)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Ratón</h3>
+            <img src="multimedia/p4.png" />
+            <h1>36€</h1>
+            <button class="button-add" onclick="add('Ratón', 36)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Iphone 13 Gold</h3>
+            <img src="multimedia/p5.png" />
+            <h1>669€</h1>
+            <button class="button-add" onclick="add('Iphone 13 Gold', 669)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>TV TCL 4k</h3>
+            <img src="multimedia/p6.png" />
+            <h1>479€</h1>
+            <button class="button-add" onclick="add('TV TCL 4k', 479)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Mando Xbox</h3>
+            <img src="multimedia/p7.png" />
+            <h1>49€</h1>
+            <button class="button-add" onclick="add('Mando Xbox', 49)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Tarjeta Gráfica Nvidia</h3>
+            <img src="multimedia/p8.png" />
+            <h1>345€</h1>
+            <button class="button-add" onclick="add('Tarjeta Gráfica Nvidia', 345)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Placa Base Gigabyte</h3>
+            <img src="multimedia/p9.png" />
+            <h1>149€</h1>
+            <button class="button-add" onclick="add('Placa Base Gigabyte', 149)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Silla Ergonómica</h3>
+            <img src="multimedia/p10.png" />
+            <h1>119€</h1>
+            <button class="button-add" onclick="add('Silla ergonómica', 119)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>PC MSI</h3>
+            <img src="multimedia/p11.png" />
+            <h1>1700€</h1>
+            <button class="button-add" onclick="add('PC MSI', 1700)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Auriculares inhalámbricos Razer</h3>
+            <img src="multimedia/p12.png" />
+            <h1>49€</h1>
+            <button class="button-add" onclick="add('Auriculares inhalámbricos Razer', 49)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Robot Aspirador</h3>
+            <img src="multimedia/p13.png" />
+            <h1>130€</h1>
+            <button class="button-add" onclick="add('Robot Aspirador', 130)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Teclado Mecánico</h3>
+            <img src="multimedia/p14.png" />
+            <h1>89€</h1>
+            <button class="button-add" onclick="add('Teclado Mecánico', 89)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Bombilla LED</h3>
+            <img src="multimedia/p15.png" />
+            <h1>14€</h1>
+            <button class="button-add" onclick="add('Bombilla LED', 14)">Agregar</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: 123 Calle Donoso Cortés</p>
+                <p><i class="fas fa-phone-alt"></i> Teléfono: +34 648 11 67 88</p>
+                <p><i class="fas fa-envelope"></i> Correo electrónico: pcpozo@support.com</p>
+            </div>
+            <div>
+                <h3>Redes sociales</h3>
+                <ul style="list-style: none; display: flex; justify-content: center; padding: 40;">
+                    <li style="margin: 0 10px;">
+                        <img src="multimedia/twitter.png" alt="" width="25">
+                        <p>@pcpozo</p>
+                    </li>
+                    <li style="margin: 0 10px;">
+                        <img src="multimedia/ig.png" alt="" width="25">
+                        <p>@PCpozo</p>
+                    </li>
+                    <li style="margin: 0 10px;">
+                        <img src="multimedia/fb.png" alt="" width="25">
+                        <p>PCpozoOfficial</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

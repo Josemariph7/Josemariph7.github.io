@@ -1,0 +1,134 @@
+body {
+    margin: 0em;
+    background-color: rgb(255, 255, 255);
+    font-family: calibri;
+}
+
+button {
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 0.625em 1.25em;
+}
+
+.page-nav {
+    background-color: #2196F3;
+    border: 0.0625em solid black;
+    position: relative;
+}
+
+.logo {
+    margin: 1.25em;
+    display: flex;
+}
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 0.125em solid #008CBA;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 0.9375em;
+    bottom: 0.9375em;
+}
+
+.button-checkout:hover {
+    background-color: #00678a;
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 0.9375em;
+    padding: 0.125em 1em;
+    position: relative;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 1em 1em 0.3em rgba(0, 0, 3, 0.2);
+}
+
+.product-container img {
+    width: 18.75em;
+}
+
+.product-container h1 {
+    margin-bottom: 0.625em;
+    margin-left: 0.9375em;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 0.125em solid #4CAF50;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 0.9375em;
+    bottom: 0.625em;
+}
+
+.button-add:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.footer {
+    background-color: #2196F3;
+    position: relative;
+    padding-top: 2.5em 0;
+    padding-bottom: 0;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: relative;
+    padding: 0.625em 1.25em;
+}
+
+.nav-logo {
+    margin: 0.3125em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 1.25em;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #008CBA;
+}
